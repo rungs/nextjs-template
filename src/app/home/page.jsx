@@ -2,7 +2,7 @@
 
 import { useGetUsersQuery } from "@/redux/services/userApi";
 import { decrement, increment, reset } from "@/redux/features/counterSlice";
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from "react-redux";
 
 export default function Home() {
   const count = useSelector((state) => state.counterReducer.value);
